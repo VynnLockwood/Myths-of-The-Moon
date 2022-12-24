@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Prompt:wght@200&family=Sarabun:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(253, 253, 253);
+    border-bottom: 1px solid black;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 4px;
+}
+
+header h2{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    width: 100vw;
+    height: 8vh;
+    font-family: 'Sarabun', sans-serif;
+}
+
+nav ul{
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 4%;
+    padding-left: 4%;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+/*\\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+#logo{
+    position: absolute;
+    top: 0;
+    left: 8%;
+    width: 38%;
+    height: 50%;
+
+}
+
+
+#wel{
+    position: absolute;
+    width: 10vw;
+    top: 22vh;
+    height: 56vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-family: 'Sarabun', sans-serif;
+    text-align: center;
+}
+
+#wel ul li{
+    list-style: none;
+    margin-bottom: 1.2em;
+}
+
+#wel ul li h4{
+    list-style: none;
+    font-size: large;
+}
+
+#wel-text{
+    position: absolute;
+    width: 70vw;
+    top: 22vh;
+    left: 18vw;
+    height: 56vh;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Prompt', sans-serif;
+    letter-spacing: 2px;
+}
+
+#wel-text h4{
+    line-height: 1.8em;
+}
+
+#music{
+    position: absolute;
+    top: 135%;
+    left: 8%;
+    width: 25%;
+    height: 50%;
+    background-color: black;
+}
+
+#classroom{
+    position: absolute;
+    top: 127%;
+    left: 37.5%;
+    width: 25%;
+    height: 50%;
+    background-color: black;
+}
+
+#playground{
+    position: absolute;
+    top: 135%;
+    right: 8%;
+    width: 25%;
+    height: 50%;
+    background-color: black;
+}
